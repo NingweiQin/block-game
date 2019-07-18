@@ -129,7 +129,6 @@ while not game_over:
 
 	if collision_check(player_pos, enemy_list):
 		game_over = True
-		break
 
 	draw_enemy(enemy_list)
 
